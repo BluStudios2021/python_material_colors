@@ -3,12 +3,12 @@ A simple implementation of the material design colors in python.
 
 - currently only supports 'rgb' format; more will be added soon
 
-- Usage:
+# Usage:
 
-  from material_colors import MaterialColors
+from material_colors import MaterialColors
 
-  Colors = MaterialColors('rgb')
+Colors = MaterialColors('rgb')
 
-  my_red_color = Colors.red()
+my_red_color = Colors.red()
 
-  my_purple_color = Colors.purple(300)
+my_purple_color = Colors.purple(300)
