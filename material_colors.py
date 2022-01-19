@@ -16,7 +16,7 @@
 class MaterialColors():
     def __init__(self, mode = 'rgb'):
         # set the format in which the color gets returned
-        self.setMode()
+        self.setMode(mode)
 
         # normal colors
         self._red         = {50: [(255, 235, 238)],
